@@ -12,14 +12,17 @@ export function HeroHighlightDemo() {
   return (
     <section id="home">
     <HeroHighlight>
-    <div className="h-[30rem] flex items-center justify-center">
-      <TextHoverEffect text="MXUSCLE" />
+    <div className=" flex items-center justify-center mb-1">
+      <TextHoverEffect text="XMUSCLE" />
     </div>
-      <TextGenerateEffect className='text-4xl px- md:text-4xl lg:text-7xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto' words='Explore proven training systems designed to build muscle '/>
+      <TextGenerateEffect className='text-4xl md:text-5xl  font-bold text-neutral-700 dark:text-white lg:text-7xl leading-snug  tracking-wide text-center'
+       words='Explore proven training systems designed to build muscle '/>
     </HeroHighlight >
    
     
     </section>
+    
+    
   );
 }
 
