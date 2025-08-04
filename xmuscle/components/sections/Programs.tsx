@@ -8,7 +8,7 @@ import { CometCard } from "../UI/comet-card";
 const programs = [
   {
     id: 1,
-    title: " Push Pull Legs",
+    title: "Push Pull Legs",
     description: " تقسيم العضلات علي ثلاث ايام  ",
     image: "/push.jpg",
     link: "#",
@@ -35,7 +35,7 @@ const programs = [
   },
     {
     id: 4,
-    title: " Full Body Workout ",
+    title: "Full Body Workout",
     description: "   استهداف كل عضلات الجسم    ",
     image: "/advanced.jpg",
     link: "#",
