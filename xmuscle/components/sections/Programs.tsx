@@ -64,7 +64,7 @@ export default function ProgramsSection() {
       aria-labelledby="programs-title"
     >
       <div className="max-w-5xl mx-auto px-3">
-        {/* العنوان */}
+        
         <h2
           id="programs-title"
           className="text-3xl font-bold text-center text-black dark:text-white mb-4"
@@ -72,12 +72,12 @@ export default function ProgramsSection() {
           أنظمة التدريب
         </h2>
 
-        {/* الوصف */}
+        
         <p className="text-center text-gray-600 dark:text-gray-300 mb-12 max-w-xl mx-auto">
           اختر البرنامج المناسب لمستواك وأهدافك في بناء العضلات
         </p>
 
-        {/* الشبكة */}
+        
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {programs.map((program, index) => (
             <motion.div
@@ -89,7 +89,7 @@ export default function ProgramsSection() {
               <CometCard>
                 <article className="rounded-xl bg-[#1F2121] p-4 h-full flex flex-col min-h-[430px]">
 
-                  {/* الصورة */}
+                
                   <div className="aspect-[4/4] w-full mb-4 overflow-hidden rounded-xl">
                     <img
                       src={program.image}
@@ -100,7 +100,7 @@ export default function ProgramsSection() {
                     />
                   </div>
 
-                  {/* المستوى والمدة */}
+                  
                   <div className="flex items-center gap-2 mb-2">
                     <span className="bg-gray-600 text-white text-xs px-2 py-1 rounded-full">
                       {program.level}
@@ -110,7 +110,7 @@ export default function ProgramsSection() {
                     </span>
                   </div>
 
-                  {/* العنوان والوصف */}
+                
                   <h3 className="text-xl font-semibold text-white mb-2">
                     {program.title}
                   </h3>
@@ -118,7 +118,7 @@ export default function ProgramsSection() {
                     {program.description}
                   </p>
 
-                  {/* زر التفاصيل */}
+                  
                   <Link href={program.link} aria-label={`عرض تفاصيل ${program.title}`}>
                     <button className="w-full transform hover:-translate-y-1  bg-gray-600 hover:bg-slate-500 text-black px-4 py-3 rounded-lg duration-200 font-medium">
                       عرض الخطة
