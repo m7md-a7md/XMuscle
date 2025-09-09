@@ -120,7 +120,7 @@ export default function ProgramsSection() {
 
                   {/* زر التفاصيل */}
                   <Link href={program.link} aria-label={`عرض تفاصيل ${program.title}`}>
-                    <button className="w-full bg-white text-black px-4 py-3 rounded-lg hover:bg-gray-200 transition-colors duration-200 font-medium">
+                    <button className="w-full transform hover:-translate-y-1  bg-gray-600 hover:bg-slate-500 text-black px-4 py-3 rounded-lg duration-200 font-medium">
                       عرض الخطة
                     </button>
                   </Link>
